@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top c-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Fabian Winokan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header c-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contact</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body c-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+
+      <section class="modal fade" tabindex="-1" id="idream-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Contact</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              
+                <div class="row g-2">
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <a href= "mailto:221110095@student.mercubuana-yogya.ac.id">My Email</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row g-2">
+                    <div class="form-floating">
+                      <a href="https://wa.me/+6282152281761">WhatsApp</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Contact" class="pt-md-5">
+        <h2 class="text-center my-5">Contact</h2>
+
+        <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <div class="card">
+              <img src="./assets/images/logo-gmail.png" class="card-img-top" alt="...">
+              <div class="card-img-top">
+                <h5 class="card-title">Email</h5>
+                <p class="card-text"></p>
+                <button
+                class="btn btn-success px-4 py-2 fs-5 mt-2"
+                data-bs-toggle="modal"
+                data-bs-target="#idream-modal"
+              >
+              press here
+              </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img src="./assets/images/DSxOAUB0raA.png" class="card-img-top" alt="...">
+              <div class="card-img-top">
+                <h5 class="card-title">WhatsApp</h5>
+                <p class="card-text"></p>
+                <button
+                class="btn btn-success px-4 py-2 fs-5 mt-2"
+                data-bs-toggle="modal"
+                data-bs-target="#idream-modal"
+              > 
+              press here
+              </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <div class="card-img-top">
+                <h5 class="card-title">Location</h5>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15813.003220294195!2d110.3945184!3d-7.763205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59bb7ddfe0e5%3A0x798da0c5d7aeac76!2sUniversitas%20Mercu%20Buana%20Yogyakarta%2C%20Kampus%202!5e0!3m2!1sid!2sid!4v1712748851159!5m2!1sid!2sid"
+                  width="600"
+                  height="400"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+
+      body{
+        background-image: url(./assets/images/bbdc3326ea7ad43d2104cb098b7918fd.jpg); 
+        text-align: center;
+      }
+      a{
+        color: rgb(90, 44, 4);
+      }
+      h1{
+        color: rgb(90, 44, 4);
+        text-align: center;
+      }
+      img{
+        height: 30%;
+        width: 30%;
+        display: block;
+        margin: auto;
+      }
+      p{
+        color: rgb(249, 226, 195);
+      }
+      nav{
+        background-color: burlywood;
+      }
+      h2{
+        color: rgb(90, 44, 4);
+      }
+
+
+
+
+      
+    .c-navbar{
+        background-color: rgb(108, 75, 49);
+    }
+
+    .c-body{
+        background-color: rgb(139, 105, 61);
+    }
+
+    .c-header{
+      background-color: rgb(110, 76, 32);
+  }
+    
